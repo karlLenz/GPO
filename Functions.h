@@ -37,7 +37,7 @@ void Functions1()
 void DemoGetPower(double base, int exponent)
 {
 	std::cout << '\n' << base << " ^ " << exponent <<
-		" = " << GetPower(base, exponent) << '\n';
+		" = " << GetPower(base, exponent);
 }
 
 
