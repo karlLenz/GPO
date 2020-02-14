@@ -82,3 +82,18 @@ void Functions3()
 	RoundToTens(num3);
 	std::cout << " rounded value is " << num3 << '\n';
 }
+
+
+void FunctionsMenu()
+{
+	std::cout << "\nÏÅÐÂÎÅ ÇÀÄÀÍÈÅ\n";
+	Functions1();
+	system("pause");
+	system("cls");
+	std::cout << "\nÂÒÎÐÎÅ ÇÀÄÀÍÈÅ\n";
+	Functions2();
+	system("pause");
+	system("cls");
+	std::cout << "\nÒÐÅÒÜÅ ÇÀÄÀÍÈÅ\n";
+	Functions3();
+}

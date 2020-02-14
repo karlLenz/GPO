@@ -18,9 +18,8 @@ int main()
 			}
 			case FUNCTIONS:
 			{
-				Functions1();
-				Functions2();
-				Functions3();
+				FunctionsMenu();
+				system("pause");
 				break;
 			}
 			case POINTERS:
