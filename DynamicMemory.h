@@ -183,3 +183,38 @@ void DynamicMemory8()
 	std::cout << "\nCount is " << CountPositivValues(values, size);
 	delete[] values;
 }
+
+
+void DynamicMemoryMenu()
+{
+	std::cout << "\nÏÅÐÂÎÅ ÇÀÄÀÍÈÅ\n";
+	DynamicMemory2();
+	system("pause");
+	system("cls");
+	std::cout << "\nÂÒÎÐÎÅ ÇÀÄÀÍÈÅ\n";
+	DynamicMemory2();
+	system("pause");
+	system("cls");
+	std::cout << "\nÒÐÅÒÜÅ ÇÀÄÀÍÈÅ\n";
+	DynamicMemory3();
+	system("pause");
+	system("cls");
+	std::cout << "\n×ÅÒÂÅÐÒÎÅ ÇÀÄÀÍÈÅ\n";
+	DynamicMemory4();
+	system("pause");
+	system("cls");
+	std::cout << "\nÏßÒÎÅ ÇÀÄÀÍÈÅ\n";
+	DynamicMemory5();
+	system("pause");
+	system("cls");
+	std::cout << "\nØÅÑÒÎÅ ÇÀÄÀÍÈÅ\n";
+	DynamicMemory6();
+	system("pause");
+	system("cls");
+	std::cout << "\nÑÅÄÜÌÎÅ ÇÀÄÀÍÈÅ\n";
+	DynamicMemory7();
+	system("pause");
+	system("cls");
+	std::cout << "\nÂÎÑÜÌÎÅ ÇÀÄÀÍÈÅ\n";
+	DynamicMemory8();
+}

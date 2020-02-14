@@ -30,14 +30,8 @@ int main()
 			}
 			case DYNAMIC_MEMORY:
 			{
-				DynamicMemory1();
-				DynamicMemory2();
-				DynamicMemory3();
-				DynamicMemory4();
-				DynamicMemory5();
-				DynamicMemory6();
-				DynamicMemory7();
-				DynamicMemory8();
+				DynamicMemoryMenu();
+				system("pause");
 				break;
 			}
 			case EXIT:
