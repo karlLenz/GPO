@@ -115,11 +115,14 @@ void Pointers6()
 
 
 //ex 1.1.4.7
-//1)При объявлении указывается тип переменной.
-//2)Операция умножения - это бинарноый оператор,
-//т. е. функция принимающая два операнда(параметра).
-//3)Операция разыменования - это унарный оператор,
-//т. е. функция принимающая один операнд(параметр).
+void Pointers7()
+{
+	std::cout << "\n1)При объявлении указывается тип переменной."
+		"\n2)Операция умножения - это бинарноый оператор,"
+		"т.е.функция принимающая два операнда(параметра)."
+		"\n3)Операция разыменования - это унарный оператор,"
+		"т.е.функция принимающая один операнд(параметр).\n";
+}
 
 
 //ex 1.1.4.8
@@ -146,4 +149,39 @@ void Pointers8()
 	Foo8(pointer);
 
 	std::cout << "\nValue of \'value\' in main(): " << value << '\n';
+}
+
+
+void PointersMenu()
+{
+	std::cout << "\nПЕРВОЕ ЗАДАНИЕ\n";
+	Pointers2();
+	system("pause");
+	system("cls");
+	std::cout << "\nВТОРОЕ ЗАДАНИЕ\n";
+	Pointers2();
+	system("pause");
+	system("cls");
+	std::cout << "\nТРЕТЬЕ ЗАДАНИЕ\n";
+	Pointers3();
+	system("pause");
+	system("cls");
+	std::cout << "\nЧЕТВЕРТОЕ ЗАДАНИЕ\n";
+	Pointers4();
+	system("pause");
+	system("cls");
+	std::cout << "\nПЯТОЕ ЗАДАНИЕ\n";
+	Pointers5();
+	system("pause");
+	system("cls");
+	std::cout << "\nШЕСТОЕ ЗАДАНИЕ\n";
+	Pointers6();
+	system("pause");
+	system("cls");
+	std::cout << "\nСЕДЬМОЕ ЗАДАНИЕ\n";
+	Pointers7();
+	system("pause");
+	system("cls");
+	std::cout << "\nВОСЬМОЕ ЗАДАНИЕ\n";
+	Pointers8();
 }

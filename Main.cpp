@@ -24,13 +24,8 @@ int main()
 			}
 			case POINTERS:
 			{
-				Pointers1();
-				Pointers2();
-				Pointers3();
-				Pointers4();
-				Pointers5();
-				Pointers6();
-				Pointers8();
+				PointersMenu();
+				system("pause");
 				break;
 			}
 			case DYNAMIC_MEMORY:
