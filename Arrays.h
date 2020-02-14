@@ -75,14 +75,14 @@ void Arrays3()
 
 void ArraysMenu()
 {
-	std::cout << "\nÏåðâîå çàäàíèå";
+	std::cout << "\nÏÅÐÂÎÅ ÇÀÄÀÍÈÅ\n";
 	Arrays1();
 	system("pause");
 	system("cls");
-	std::cout << "\nÂòîðîå çàäàíèå";
+	std::cout << "\nÂÒÎÐÎÅ ÇÀÄÀÍÈÅ\n";
 	Arrays2();
 	system("pause");
 	system("cls");
-	std::cout << "\nÒðåòüå çàäàíèå";
+	std::cout << "\nÒÐÅÒÜÅ ÇÀÄÀÍÈÅ\n";
 	Arrays3();
 }
