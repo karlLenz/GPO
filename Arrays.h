@@ -71,3 +71,18 @@ void Arrays3()
 	PrintSymbols(symbols, 8);
 	std::cout << '\n';
 }
+
+
+void ArraysMenu()
+{
+	std::cout << "\nПервое задание";
+	Arrays1();
+	system("pause");
+	system("cls");
+	std::cout << "\nВторое задание";
+	Arrays2();
+	system("pause");
+	system("cls");
+	std::cout << "\nТретье задание";
+	Arrays3();
+}

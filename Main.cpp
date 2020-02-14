@@ -10,9 +10,8 @@ int main()
 		{
 			case ARRAYS:
 			{
-				Arrays1();
-				Arrays2();
-				Arrays3();
+				ArraysMenu();
+				system("pause");
 				break;
 			}
 			case FUNCTIONS:
