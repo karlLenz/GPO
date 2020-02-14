@@ -7,6 +7,8 @@ int main()
 	while (true)
 	{
 		system("cls");
+		PrintMainMenu();
+		std::cout << "\n¬ведите номер команды: ";
 		std::cin >> command;
 		switch (command)
 		{
