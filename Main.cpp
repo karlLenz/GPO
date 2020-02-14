@@ -6,6 +6,7 @@ int main()
 	int command;
 	while (true)
 	{
+		system("cls");
 		std::cin >> command;
 		switch (command)
 		{
