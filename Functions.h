@@ -27,9 +27,9 @@ double GetPower(double base, int exponent)
 
 void Functions1()
 {
-	std::cout << '\n' << 2.0 << " ^ " << 5 << GetPower(2.0, 5) <<
-		'\n' << 3.0 << " ^ " << 4 << GetPower(2.0, 5) <<
-		'\n' << -2.0 << " ^ " << 5 << GetPower(-2.0, 5) << '\n';
+	std::cout << '\n' << 2.0 << " ^ " << 5 << " = " << GetPower(2.0, 5) <<
+		'\n' << 3.0 << " ^ " << 4 << " = " << GetPower(3.0, 4) <<
+		'\n' << -2.0 << " ^ " << 5 << " = " << GetPower(-2.0, 5) << '\n';
 }
 
 
@@ -90,10 +90,10 @@ void FunctionsMenu()
 	Functions1();
 	system("pause");
 	system("cls");
-	std::cout << "\nÂÒÎÐÎÅ ÇÀÄÀÍÈÅ\n";
+	std::cout << "\nÂÒÎÐÎÅ ÇÀÄÀÍÈÅ";
 	Functions2();
 	system("pause");
 	system("cls");
-	std::cout << "\nÒÐÅÒÜÅ ÇÀÄÀÍÈÅ\n";
+	std::cout << "\nÒÐÅÒÜÅ ÇÀÄÀÍÈÅ";
 	Functions3();
 }
