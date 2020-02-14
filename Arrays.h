@@ -48,7 +48,7 @@ void PrintSymbols(char* symbols, int size)
 	__int8 maxAscii = 'z';
 	for (int i = 0; i < 8; ++i)
 	{
-		if (minAscii >= symbols[i] && symbols[i] <= maxAscii)
+		if (minAscii <= symbols[i] && symbols[i] <= maxAscii)
 		{
 			std::cout << symbols[i] << ' ';
 		}
